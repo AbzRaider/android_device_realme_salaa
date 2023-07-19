@@ -435,7 +435,10 @@ PRODUCT_PACKAGES += \
     android.hardware.tetheroffload.control@1.1.vendor
 
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service-lazy.salaa
+    android.hardware.wifi@1.0-service-lazy \
+    hostapd \
+    libwifi-hal-mt66xx \
+    wpa_supplicant
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \

@@ -341,8 +341,9 @@
     <CMD name="PERF_RES_FPS_FPSGO_STOP_BOOST" id="0x02004200">
         <Entry path="/sys/kernel/fpsgo/common/stop_boost"></Entry>
         <Compare>more</Compare>
-        <MaxValue>65535</MaxValue>
-        <MinValue>0</MinValue>
+	<MaxValue>65535</MaxValue>
+	<DefaultValue>-1</DefaultValue>
+        <MinValue>-1</MinValue>
     </CMD>
     <CMD name="PERF_RES_FPS_FPSGO_LLF_TH" id="0x02044000">
         <Entry path="/sys/module/fbt_cpu/parameters/loading_th"></Entry>

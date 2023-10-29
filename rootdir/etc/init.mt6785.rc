@@ -1134,3 +1134,7 @@ service mtk_secure_element_hal_service /vendor/bin/hw/android.hardware.secure_el
     class hal
     user secure_element
     group secure_element
+
+# PPM
+echo 1 > /proc/ppm/enabled
+echo 9 1 > /proc/ppm/policy_status

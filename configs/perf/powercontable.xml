@@ -136,7 +136,7 @@
         <Compare>more</Compare>
         <MaxValue>1</MaxValue>
         <MinValue>0</MinValue>
-        <DefaultValue>0</DefaultValue>
+        <DefaultValue>1</DefaultValue>
     </CMD>
     <CMD name="PERF_RES_SCHED_PLUS_DOWN_THROTTLE_NS" id="0x01424000">
         <Entry path="/proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_schedplus_down_throttle"></Entry>

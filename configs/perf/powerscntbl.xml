@@ -28,4 +28,33 @@
         <data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
         <data cmd="PERF_RES_GPU_GED_LOADING_BASE_DVFS_STEP" param1="15"></data>
     </scenario>
+    <scenario powerhint="SUSTAINED_PERFORMANCE">
+	        <!--  2023/11/1, Optimized For  Gaming Performance -->
+	        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_GPU_GED_MARGIN_MODE" param1="130"></data>
+		<data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+		<data cmd="PERF_RES_SCHED_BOOST" param1="4"></data>
+		<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		<data cmd="PERF_RES_GPU_POWER_POLICY" param1="1"></data>
+		<data cmd="PERF_RES_TOUCH_CHANGE_RATE" param1="1"></data>
+		<data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="3000000"></data>
+		<data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="3000000"></data>
+		<data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="85"></data>
+		<data cmd="PERF_RES_SCHED_PLUS_UP_THROTTLE_NS" param1="2000000"></data>
+		<data cmd="PERF_RES_SCHED_PLUS_DOWN_THROTTLE_NS" param1="10"></data>
+		<data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="100"></data>
+		<data cmd="PERF_RES_POWERHAL_SPORTS_MODE" param1="1"></data>
+		<data cmd="PERF_RES_FPS_FSTB_SOFT_FPS_LOWER" param1="60"></data>
+                <data cmd="PERF_RES_FPS_FSTB_SOFT_FPS_UPPER" param1="90"></data>
+		<data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE" param1="2"></data>
+                <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_DBNC_A" param1="9"></data>
+                <data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
+                <data cmd="PERF_RES_GPU_GED_LOADING_BASE_DVFS_STEP" param1="15"></data>
+		<data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_DBNC_B" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FPSGO_LLF_TH" param1="25"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_NET_WIFI_LOW_LATENCY" param1="1"></data>
+</scenario>
 </SCNTABLE>

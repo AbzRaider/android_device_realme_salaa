@@ -3,11 +3,10 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_salaa.mk
+$(LOCAL_DIR)/pixys_salaa.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_salaa-user \
-    arrow_salaa-userdebug \
-    arrow_salaa-eng
+    pixys_salaa-user \
+    pixys_salaa-userdebug \
+    pixys_salaa-eng
